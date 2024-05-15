@@ -47,6 +47,8 @@ O propósito deste módulo é introduzir os principais algoritmos de clusteriza�
 
 O módulo explora o algoritmo de clusterização hierárquica, crucial em aprendizado de máquina para agrupamento de dados. Inclui teoria, dendrogramas e aplicação em recomendação de laptops em um marketplace.
 
+**Acesso ao app de consulta Streamlit:** `streamlit run .\apps\app_clustering_laptops.py` (Local URL: `http://localhost:8501`)
+
 > Acesso ao [conteúdo das aulas](.github/docs/content/m15.md)
 >
 > [Apresentação em slides](.github/docs/pdf/ppts_m15.pdf) do conteúdo teórico.

@@ -1,3 +1,7 @@
+"""
+This module contains functions for processing text and writing it to a markdown file.
+"""
+
 import re
 
 
