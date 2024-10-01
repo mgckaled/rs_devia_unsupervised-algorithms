@@ -15,14 +15,16 @@ def group_text(input_text: str) -> tuple[list[str], str]:
     Returns:
         tuple[list[str], str]: A tuple containing two elements:
             - hours (list[str]): A list of time occurrences found in the text.
-            - paragraph (str): The text with time removed, cleaned up, and grouped into a /
-            single paragraph.
+            - paragraph (str): The text with time removed, cleaned up, and grouped into a 
+              single paragraph.
     """
-    # Find all occurrences of time in the text
-    hours = re.findall(pattern=r'\d+:\d+', string=input_text)
+    # Find all occurrences of time in the text (hours, minutes, seconds, fractions of seconds)
+    hours = re.findall(
+        pattern=r'\d+:\d+:\d+(?:\.\d+)?|\d+:\d+(?:\.\d+)?', string=input_text)
 
     # Remove time from the text
-    cleaned_text = re.sub(pattern=r'\d+:\d+', repl='', string=input_text)
+    cleaned_text = re.sub(
+        pattern=r'\d+:\d+:\d+(?:\.\d+)?|\d+:\d+(?:\.\d+)?', repl='', string=input_text)
 
     # Remove extra line breaks and spaces
     cleaned_text = re.sub(pattern=r'\n+', repl=' ',
