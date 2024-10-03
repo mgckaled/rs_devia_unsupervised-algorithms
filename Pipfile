@@ -18,6 +18,8 @@ seaborn = "*"
 scipy = "*"
 streamlit = "*"
 numpy = "*"
+mlxtend = "*"
+aiofiles = "*"
 
 [dev-packages]
 
