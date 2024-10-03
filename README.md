@@ -24,6 +24,7 @@
     - [Módulo 14 - K-Means](#módulo-14---k-means)
     - [Módulo 15 - Clusterização Hierárquica](#módulo-15---clusterização-hierárquica)
     - [Módulo 16 - PCA](#módulo-16---pca)
+    - [Módulo 17 - t-SNE](#módulo-17---t-sne)
   - [Tecnologias](#tecnologias)
     - [Linguagem de Programação](#linguagem-de-programação)
     - [Gerenciadores de Ambiente Virtual](#gerenciadores-de-ambiente-virtual)
@@ -60,6 +61,14 @@ Abordagem com foco em algoritmos de redução de dimensionalidade, especialmente
 > Acesso ao [conteúdo das aulas](.github/docs/content/m16.md)
 > 
 > [Apresentação em slides](.github/docs/pdf/ppts_m16.pdf) do conteúdo teórico.
+
+### Módulo 17 - t-SNE
+
+Este módulo ensina o algoritmo t-SNE para redução de dimensionalidade, aplicado a um projeto de uma empresa de cosméticos. Inclui EDA e visualização dos resultados, capacitando você a usar t-SNE para interpretar grandes conjuntos de dados.
+
+> Acesso ao [conteúdo das aulas](.github/docs/content/m17.md)
+> 
+> [Apresentação em slides](.github/docs/pdf/ppts_m17.pdf) do conteúdo teórico.
 
 ## Tecnologias
 
